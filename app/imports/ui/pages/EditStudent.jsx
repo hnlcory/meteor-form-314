@@ -16,7 +16,7 @@ import { EnrollmentData } from '../../api/enrollmentdata/EnrollmentData';
 
 const bridge = new SimpleSchema2Bridge(formSchema);
 
-/** Renders the Page for editing a document . */
+/** Renders the Page for editing a document. */
 class EditStudent extends React.Component {
 
   /** On submit, try to insert the data. If successful, reset the form. */
